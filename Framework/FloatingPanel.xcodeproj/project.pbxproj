@@ -21,6 +21,7 @@
 		54CDC5D5215B6D8D007D205C /* FloatingPanelBackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDC5D4215B6D8D007D205C /* FloatingPanelBackdropView.swift */; };
 		54CFBFC3215CD045006B5735 /* FloatingPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CFBFC2215CD045006B5735 /* FloatingPanelLayout.swift */; };
 		54CFBFC5215CD09C006B5735 /* FloatingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CFBFC4215CD09C006B5735 /* FloatingPanel.swift */; };
+		54E6C48E224DB3BB00C2F99F /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E6C48D224DB3BB00C2F99F /* Compat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		54CDC5D4215B6D8D007D205C /* FloatingPanelBackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelBackdropView.swift; sourceTree = "<group>"; };
 		54CFBFC2215CD045006B5735 /* FloatingPanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelLayout.swift; sourceTree = "<group>"; };
 		54CFBFC4215CD09C006B5735 /* FloatingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanel.swift; sourceTree = "<group>"; };
+		54E6C48D224DB3BB00C2F99F /* Compat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				54CDC5D4215B6D8D007D205C /* FloatingPanelBackdropView.swift */,
 				545DBA2A2152383100CA77B8 /* GrabberHandleView.swift */,
 				545DB9DD215118C800CA77B8 /* UIExtensions.swift */,
+				54E6C48D224DB3BB00C2F99F /* Compat.swift */,
 				54ABD7AE216CCFF7002E6C13 /* Logger.swift */,
 			);
 			path = Sources;
@@ -239,6 +242,7 @@
 				545DBA2B2152383100CA77B8 /* GrabberHandleView.swift in Sources */,
 				54352E9621A51A2500CBCA08 /* FloatingPanelTransitioning.swift in Sources */,
 				545DB9DE215118C800CA77B8 /* UIExtensions.swift in Sources */,
+				54E6C48E224DB3BB00C2F99F /* Compat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG __FP_LOG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
